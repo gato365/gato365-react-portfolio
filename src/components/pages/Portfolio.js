@@ -9,7 +9,7 @@ import React from 'react';
 
 function Portfolio() {
     return (
-        <div className="container">
+            <div className="container">
             <div className="row">
                 <div className="col-sm-12">
                     <h1>Portfolio</h1>
