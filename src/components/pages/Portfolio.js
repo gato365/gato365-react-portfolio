@@ -75,3 +75,9 @@ function Portfolio() {
                     <p>Project 4 Description</p>
                 </div>
             </div>
+
+        </div>
+    )
+}
+
+export default Portfolio;
