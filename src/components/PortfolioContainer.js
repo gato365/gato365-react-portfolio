@@ -28,6 +28,7 @@ function PortfolioContainer() {
     // The handlePageChange method is used to update the value of currentPage
     const handlePageChange = (page) => setCurrentPage(page);
 
+    // The return statement renders a div that contains the NavTabs component and a div to display the current page
     return (
         <div>
             <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
