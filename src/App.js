@@ -1,6 +1,6 @@
 
 function App() {
-  return null;
+  return 'hello world!';
 }
 
 export default App;
