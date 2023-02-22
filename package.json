@@ -6,6 +6,9 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.3.3",
+    "bootstrap": "^5.2.3",
+    "dotenv": "^16.0.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.1",
@@ -37,7 +40,6 @@
   },
   "description": "Steps to Create Project:\r - [ ] Create single-page application portfolio\r - [ ] Design header with the developer's name and navigation with titles corresponding to different sections of the portfolio\r - [ ] Design About Me section with recent photo or avatar of the developer and a short bio\r - [ ] Design Portfolio section with titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository\r - [ ] Design Contact section with a contact form with fields for a name, an email address, and a message\r - [ ] Add notification to contact form if a field is left blank\r - [ ] Add notification to contact form if an invalid email address is entered\r - [ ] Design Resume section with a link to a downloadable resume and a list of the developer’s proficiencies\r - [ ] Design footer with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)",
   "main": "index.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gato365/gato365-react-portfolio.git"
