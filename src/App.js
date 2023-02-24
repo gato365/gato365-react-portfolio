@@ -7,7 +7,7 @@ const App = () => {
             backgroundColor: 'black',
             width: '100vw',
             height: '100vh',
-            fontFamily: 'Arial', 
+            fontFamily: 'Garamond', 
             fontSize: '16px', 
             color: 'red'
         }}>
