@@ -10,8 +10,9 @@ import React from 'react';
     <div>
       <h1>About Page</h1>
       
-        <img src="https://via.placeholder.com/150" alt="placeholder" />
+<img src="GATO365-24.jpg" alt="placeholder"/>
 
+       
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
