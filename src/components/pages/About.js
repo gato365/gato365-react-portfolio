@@ -2,7 +2,14 @@ import React from 'react';
 
 
 
-// How to center image in html css  example
+const FolderImage = () => {
+  return (
+     <div style={{ textAlign: "center" }}>
+      <img src="me.jpg" alt="Your"/>
+     </div> 
+  );
+}
+
 
  function About() {
   return (
@@ -10,9 +17,12 @@ import React from 'react';
     <div>
       <h1>About Page</h1>
       
-<img src="GATO365-24.jpg" alt="placeholder"/>
 
-       
+
+  
+    <FolderImage/> 
+ 
+      
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
