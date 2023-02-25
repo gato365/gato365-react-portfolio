@@ -1,16 +1,21 @@
 import React from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
 
+const styles = {
+    container: {
+      width: '100%',
+      height: '100%',
+      backgroundColor: 'black',
+      fontFamily: 'Garamond', 
+      fontSize: '16px', 
+      color: 'red'
+    }
+  }
+
+
 const App = () => {
     return (
-        <div style={{
-            backgroundColor: 'black',
-            width: '100vw',
-            height: '100vh',
-            fontFamily: 'Garamond', 
-            fontSize: '16px', 
-            color: 'red'
-        }}>
+        <div style={styles.container}>
             <PortfolioContainer />
         </div>
     );
