@@ -27,12 +27,21 @@ function ContactForm() {
         e.preventDefault();
         console.log({ name, email, message });
         // if statement to check if the name, email, and message are empty
-        if (!name || !email || !message) {
-            setErrorMessage('Name, email, and message are required.');
+        if (!name ) {
+            setErrorMessage('Please enter name.');
+            alert('enter name');
+        } else if(! email ) {
+            setErrorMessage('Please enter a valid email address.');
+        } else if(!message) {
+            setErrorMessage('Please enter a message.');
         } else {
             setErrorMessage('');
+            
         }
     }
+
+
+    // Add notification to contact form if a field is left blank
 
     return (
         <section>
