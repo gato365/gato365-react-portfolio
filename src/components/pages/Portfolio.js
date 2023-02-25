@@ -6,7 +6,8 @@ import mlr from './imgs/mlr.PNG';
 import stability from './imgs/stability.jpg';
 import workout from './imgs/workout.jpg';
 import weather from './imgs/weather.png';
-import quiz from './imgs/quiz.png';
+import quiz from './imgs/quiz.jpg';
+import password from './imgs/password.jpg';
 
 // Function to display the portfolio page in the browser
 // Allow for 4 projects to be displayed which all have a title, image, and description
@@ -139,14 +140,14 @@ function Portfolio() {
                     </div>
                     <div className="row">
                         <div className="col-sm-12">
-                            <a href=""><img src={weather} alt="Project 5" /></a>
+                            <a href=""><img src={password} alt="Project 5" /></a>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-sm-12">
-                            <p>Project 5 Description: 
+                            <p>Project 5 Description:  The purpose of this project is to create an app with the ability to generate secure passwords for users. The user will be prompted to choose a password length of at least eight characters and no more than 128 characters. The app will ask the user to choose the character types to include in the password, such as lowercase, uppercase, numeric, and/or special characters. The user's input will be validated, and at least one character type must be selected. Once the user answers each prompt, a secure password that matches the selected criteria will be generated. The password will be displayed on the page.
 
-                                <a href=''>Webpage</a> & <a href=''>GitHub</a>
+                                <a href='https://gato365.github.io/gato365-friendly-parakeet-ijw/'>Webpage</a> & <a href='https://github.com/gato365/gato365-friendly-parakeet-ijw'>GitHub</a>
 
                             </p>
                         </div>
