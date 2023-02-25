@@ -1,0 +1,18 @@
+
+
+/* Flexbox, justified with space arround, no bullet points,  */
+.container{
+    display: flex;
+    justify-content: space-around ;
+    list-style: none;
+    /* center images */
+    align-items: center;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center ;
+    list-style: none;
+    /* center images */
+    align-items: center;
+}
