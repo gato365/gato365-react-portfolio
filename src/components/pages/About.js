@@ -1,28 +1,28 @@
 import React from 'react';
+import eman from "./imgs/me.jpg";
 
 
 
-const FolderImage = () => {
-  return (
-     <div style={{ textAlign: "center" }}>
-      <img src="me.jpg" alt="Your"/>
-     </div> 
-  );
-}
 
 
- function About() {
+function About() {
   return (
 
     <div>
       <h1>About Page</h1>
-      
 
 
-  
-    <FolderImage/> 
- 
-      
+
+
+      <div>
+        <img src={eman} alt="Your" style={{
+          width: '250px', height: '360px',
+          display: 'block', marginLeft: 'auto',
+          marginRight: 'auto'
+        }} />
+      </div>
+
+
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed

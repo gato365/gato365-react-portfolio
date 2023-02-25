@@ -12,7 +12,4 @@
 .footer-container{
     display: flex;
     justify-content: center ;
-    list-style: none;
-    /* center images */
-    align-items: center;
 }
