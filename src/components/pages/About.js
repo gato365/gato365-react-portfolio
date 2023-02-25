@@ -23,14 +23,14 @@ function About() {
       </div>
 
 
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+
+
+      <p>Immanuel Williams is a mathematics and statistics expert with a passion for data science and computer science. He earned his Bachelor's degree in Mathematics from UMBC in 2011, followed by a Master's in Statistics and a PhD in Psychometrics. He has taught at CSU Monterey Bay, UC Santa Cruz, and Cal Poly San Luis Obispo.</p>
+
+      <p>He is the founder of GATO365 Learning Center, an educational company dedicated to creating learning experiences in data science, statistics, mathematics, and computer science. He also consults for many companies and research institutions, helping them to make sense of data and develop predictive models.</p>
+
+      <p>As a public speaker, Immanuel has spoken at multiple conferences and universities, and is an advocate for diversity in STEM. He encourages students from all backgrounds to pursue their dreams and goals.</p>
+
     </div>
   );
 }
