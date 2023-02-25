@@ -5,7 +5,10 @@ export default function Home() {
 
 
 
-        <div>
+        <div style={{ marginLeft: '40px', marginTop: '30px' }}>
+
+
+<a href="./pages/files/IJW_Curriculum_Vitae_Cal_Poly_01_17_2023.pdf" download>Download My Resume</a>
             <h3>Statistics</h3>
             <ul>
                 <li>Statistical Inference</li>
