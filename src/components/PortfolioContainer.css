@@ -1,15 +1,16 @@
-
-
 /* Flexbox, justified with space arround, no bullet points,  */
-.container{
+.container {
     display: flex;
-    justify-content: space-around ;
+    justify-content: space-around;
     list-style: none;
     /* center images */
     align-items: center;
 }
 
-.footer-container{
+.footer-container {
     display: flex;
-    justify-content: center ;
+    justify-content: center;
 }
+
+/* Create Fade Effect on Hover */
+
