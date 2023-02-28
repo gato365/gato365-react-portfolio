@@ -13,6 +13,7 @@ import github from "./pages/imgs/github-mark.png";
 import stack from "./pages/imgs/stack.png";
 
 
+
 function PortfolioContainer() {
     // Using useState, set the default value for currentPage to 'Home'
     const [currentPage, setCurrentPage] = useState('About');
@@ -44,11 +45,28 @@ function PortfolioContainer() {
 
     // The return statement renders a div that contains the NavTabs component and a div to display the current page
     
-    
+    /* React CSS */
+const reactCSS = {
+    page: {
+      background: '--raisin-black',
+      color: '--misty-rose',
+      padding: '1em'
+    },
+    main: {
+      background: '--buff',
+      color: '--verdigris',
+      padding: '1em'
+    },
+    footer: {
+      background: '--vermilion',
+      color: '--raisin-black',
+      padding: '1em'
+    }
+  };
     
     return (
 
-        <div>
+        <div  style={reactCSS.page}>
             <ul class="container">
                 <li> Immanuel</li>
                 <li> <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} /> </li>
